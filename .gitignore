@@ -1,0 +1,11 @@
+# Java
+*.class
+*.log
+*.jar
+*.war
+target/
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
