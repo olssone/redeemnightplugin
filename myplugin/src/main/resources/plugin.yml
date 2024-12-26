@@ -1,0 +1,13 @@
+name: MyPlugin
+version: 1.0
+main: com.example.myplugin.MyPlugin
+api-version: 1.21
+commands:
+  redeemnight:
+    description: Use XP to set the game time to nighttime.
+    usage: /redeemnight
+    permission: myplugin.redeemnight
+permissions:
+  myplugin.redeemnight:
+    description: Allow players to use the /redeemnight command.
+    default: false
